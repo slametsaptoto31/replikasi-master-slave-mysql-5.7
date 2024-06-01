@@ -47,7 +47,7 @@ d. IP Slave: 172.16.24.240
   show master status;
 ```
 
-<img align="left" width="300" src="show-master.png">
+(show-master.png)
 
 ### Konfigurasi Server Database Slave:
 1. #### Buka file konfigurasi mysql
