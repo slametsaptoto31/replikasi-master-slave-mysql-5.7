@@ -6,5 +6,11 @@ b. MySQL: 5.7 <br />
 c. IP Master: 172.16.24.24 <br />
 d. IP Slave: 172.16.24.240 
 
+### Konfigurasi Server Database Master:
+1. #### Buka file konfigurasi mysql
+```nano
+  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+
 
 
