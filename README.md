@@ -15,6 +15,11 @@ d. IP Slave: 172.16.24.240
 ```nano
       bind-address = 172.16.24.24
 ```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. hilangkan comment / tambahkan baris:
+```vim
+      server-id = 1
+      log_bin = /var/log/mysql/mysql-bin.log
+```
 
 
 
