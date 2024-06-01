@@ -21,5 +21,31 @@ d. IP Slave: 172.16.24.240
       log_bin = /var/log/mysql/mysql-bin.log
 ```
 
+2. #### Restart server database master
+```sh
+  systemctl restart mysql
+```
+
+3. #### Masuk ke server database master
+```mysql
+  mysql -u root -p
+```
+
+4. #### Buat user untuk akses replikasi:
+```mysql
+  grant replication slave on *.* to 'replica'@'172.16.24.240' identified by 'password';
+  flush privileges;
+```
+
+5. #### Kunci database agar tidak ada perubahan pada saat konfigurasi replikasi
+```mysql
+  flush tables with read lock;
+```
+
+6. #### Tampilkan status master. File dan Position dibutuhkan pada saat konfigurasi Slave
+```mysql
+  show master status;
+```
+
 
 
