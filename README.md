@@ -11,6 +11,10 @@ d. IP Slave: 172.16.24.240
 ```nano
   sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. ubah IP bind-address, isi dengan ip address server database master:
+```nano
+      bind-address = 172.16.24.24
+```
 
 
 
