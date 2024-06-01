@@ -1,1 +1,2 @@
-# replikasi-master-slave-mysql-5.7
+# Replikasi Master Slave MySQL 5.7
+
