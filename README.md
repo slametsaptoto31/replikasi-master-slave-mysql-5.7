@@ -101,5 +101,7 @@ d. IP Slave: 172.16.24.240
   SHOW SLAVE STATUS \G
 ```
 
+![alt text](./show-running-slave.png)
+
 
 
